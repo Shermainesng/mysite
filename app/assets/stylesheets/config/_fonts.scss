@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap");
 
 // Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
+$body-font: "Agrandir-Regular", "sans-serif";
+$headers-font: "Agrandir-GrandHeavy", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,7 +14,26 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
 @font-face {
-  font-family: "Agrandir-GrandHeavy";
-  src: url("/assets/PPAgrandir-GrandHeavy.otf");
+  font-family: "Agrandir";
+  src: url("./assets/fonts/PPAgrandir-GrandHeavy.woff") format("woff");
 }
+// @font-face {
+//   font-family: "Agrandir-GrandHeavy"; //titles, h1
+//   src: url("/assets/PPAgrandir-GrandHeavy.otf") format("otf");
+//   font-family: "Agrandir-GrandLight";
+//   src: url("/assets/PPAgrandir-GrandLight.otf") format("otf");
+//   font-family: "Agrandir-NarrowRegular";
+//   src: url("/assets/PPAgrandir-NarrowRegular.otf");
+//   font-family: "Agrandir-Regular"; //normal
+//   src: url("/assets/PPAgrandir-Regular.otf") format("otf");
+//   font-family: "Agrandir-ThinItalic";
+//   src: url("/assets/PPAgrandir-ThinItalic.otf");
+//   font-family: "Agrandir-TightRegular";
+//   src: url("/assets/PPAgrandir-TightRegular.otf");
+//   font-family: "Agrandir-WideBlackItalic"; //h2?
+//   src: url("/assets/PPAgrandirText-WideBlackItalic.otf");
+//   font-family: "Agrandir-TextBold";
+//   src: url("/assets/PPAgrandirText-Bold.otf");
+// }

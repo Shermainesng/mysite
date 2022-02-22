@@ -5,7 +5,6 @@
 
 // External libraries
 @import "bootstrap";
-@import "font-awesome-sprockets";
 @import "font-awesome";
 
 // Your CSS partials
@@ -13,5 +12,11 @@
 @import "pages/index";
 
 h1 {
-  font-family: "Agrandir-GrandHeavy";
+  font-family: "Agrandir";
+}
+h2 {
+  font-family: "Agrandir";
+}
+p {
+  font-family: "Agrandir";
 }
