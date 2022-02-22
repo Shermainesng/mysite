@@ -6,6 +6,7 @@ function Home() {
       <p>hello</p>
       <h2>hello</h2>
       <h1>hello</h1>
+      <p>this is creepy wtf</p>
     </div>
   );
 }
