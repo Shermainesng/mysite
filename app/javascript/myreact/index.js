@@ -4,15 +4,28 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //components
 import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import MyWorks from "./components/MyWorks";
 
-function Main() {
+function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <Navbar />
+      <Home />
+      <MyWorks />
+    </div>
   );
 }
+// function Main() {
+//   return (
+//     <BrowserRouter>
+//       <Navbar />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/my-works" element={<MyWorks />} />
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// }
 
-ReactDOM.render(<Main />, document.querySelector("#app"));
+ReactDOM.render(<App />, document.querySelector("#app"));

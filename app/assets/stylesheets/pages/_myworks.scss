@@ -1,0 +1,12 @@
+.container-myworks {
+  background-color: white;
+  min-height: 80vh;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+.card-img {
+  border: 3px solid black;
+}

@@ -12,11 +12,15 @@
 @import "pages/index";
 
 h1 {
-  font-family: "pp_agrandirgrand_heavy";
+  font-family: $headers-font;
+  font-size: 40px;
 }
 h2 {
   font-family: "pp_agrandirgrand_heavy";
 }
+h3 {
+  font-family: "pp_agrandirgrand_light";
+}
 p {
-  font-family: "pp_agrandirregular";
+  font-family: $body-font;
 }
