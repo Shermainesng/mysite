@@ -16,11 +16,13 @@ h1 {
   font-size: 40px;
 }
 h2 {
-  font-family: "pp_agrandirgrand_heavy";
+  font-family: "pp_agrandirgrand_light";
+  font-size: 40px;
 }
 h3 {
-  font-family: "pp_agrandirgrand_light";
+  font-family: $body-font;
 }
 p {
   font-family: $body-font;
+  font-size: 18px;
 }

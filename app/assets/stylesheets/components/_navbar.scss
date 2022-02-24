@@ -1,7 +1,23 @@
 .navbar.navbar-background {
   background-color: $hot-pink;
+  height: 80px;
 }
 .navbar-cats {
   flex-grow: 0;
   flex-basis: 0%;
+}
+.navbar a.navbar-brand {
+  font-family: $headers-font;
+  font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-family: $headers-font;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav li:hover span {
+  background-image: linear-gradient(to right, $hot-pink 50%, $turquoise 50%);
+  background-size: 200%;
+  transition: background-position 0.2s;
+  background-position: -100%;
 }

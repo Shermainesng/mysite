@@ -28,6 +28,20 @@ $headers-font: "pp_agrandirgrand_heavy", "sans-serif";
   font-style: normal;
 }
 @font-face {
+  font-family: "pp_agrandirwide_black_italic";
+  src: url("ppagrandir-wideblackitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pp_agrandirwide_light";
+  src: url("ppagrandir-widelight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "pp_agrandirregular";
   src: url("ppagrandir-regular-webfont.woff") format("woff");
   font-weight: normal;

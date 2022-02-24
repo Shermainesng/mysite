@@ -10,3 +10,21 @@
 .card-img {
   border: 3px solid black;
 }
+//project cards
+//hover effects
+.project-card:hover .card-img {
+  transform: scale(1.05) translateY(-20px);
+  opacity: 0.3;
+}
+.project-card a {
+  text-decoration: none;
+  color: black;
+  font-family: "pp_agrandirnarrow_regular";
+  font-size: 20px;
+}
+.project-card:hover .card-title {
+  background-image: linear-gradient(to right, white 50%, $turquoise 50%);
+  background-size: 200%;
+  transition: background-position 0.2s;
+  background-position: -100%;
+}

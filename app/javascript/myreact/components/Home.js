@@ -5,7 +5,7 @@ function Home() {
     <div className="container-fluid container-home">
       <div className="row justify-content-center row-custom">
         <div className="col-md-6 col-lg-6 ps-5">
-          <div className="d-flex text-white">
+          <div className="d-flex text-pink">
             <div className="text">
               <h1>hi, I am Shermaine</h1>
               <p>nice to meet you. i am an innovative full stack developer, with experience in building products that solve problems creatively. </p>
