@@ -1,6 +1,5 @@
 .container-myworks {
   background-color: white;
-  min-height: 80vh;
 }
 .card-container {
   display: grid;
@@ -11,11 +10,41 @@
   border: 3px solid black;
 }
 //project cards
-//hover effects
-.project-card:hover .card-img {
-  transform: scale(1.05) translateY(-20px);
-  opacity: 0.3;
+
+//hover effects for project cards
+.img-container {
+  background-color: $black;
+  z-index: 4;
+  display: inline-block;
+  position: relative;
 }
+
+.project-card:hover .card-img {
+  z-index: 2;
+  opacity: 0.4;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+//button on hover
+.button-card {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  display: none;
+  color: $light-pink;
+  height: 18%;
+  border: black 3px solid;
+}
+.card-img:hover + .button-card {
+  display: inline-block;
+}
+.button-card:hover {
+  display: inline-block;
+  background-color: $turquoise;
+  color: black;
+}
+
+//project card details + hover effect
 .project-card a {
   text-decoration: none;
   color: black;

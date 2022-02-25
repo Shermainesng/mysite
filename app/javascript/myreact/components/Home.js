@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="container-fluid container-home">
       <div className="row justify-content-center row-custom">
-        <div className="col-md-6 col-lg-6 ps-5">
+        <div className="col-md-6 col-lg-5 ps-5">
           <div className="d-flex text-pink">
             <div className="text">
               <h1>hi, I am Shermaine</h1>
