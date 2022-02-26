@@ -8,3 +8,21 @@
   color: black;
   border: $black 3px solid;
 }
+.container-resume {
+  background-color: $turquoise;
+}
+.btn-custom {
+  color: $light-pink;
+}
+.btn-custom:hover {
+  background-color: $turquoise;
+  color: black;
+  border: 3px black solid;
+}
+.card-custom {
+  border: 3px black solid;
+}
+.header-custom {
+  background: linear-gradient(11deg, rgba(254, 209, 245, 1) 33%, rgba(114, 242, 212, 1) 74%);
+  border-bottom: 3px black solid;
+}

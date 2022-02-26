@@ -10,10 +10,12 @@
 //   font-family: $headers-font;
 //   font-size: 20px;
 // }
-.navbar .nav .nav-link {
+.navbar .nav .nav-item-custom {
   font-family: $headers-font;
-  font-size: 18px;
+  font-size: 23px;
+  font-weight: bolder;
   color: black;
+  text-decoration: none;
 }
 
 .navbar .nav li:hover span {

@@ -1,0 +1,30 @@
+.container-contact {
+  background-color: black;
+  font-size: 23px;
+  height: 15vh;
+}
+.row-custom-contact {
+  height: 15vh;
+}
+.social ul {
+  list-style-type: none;
+}
+.social li a {
+  color: $hot-pink;
+  text-decoration: none;
+  font-family: $headers-font;
+  font-weight: bolder;
+}
+.envelope {
+  color: $hot-pink;
+}
+.envelope:hover {
+  color: $turquoise;
+}
+.social li:hover span {
+  background-image: linear-gradient(to right, $black 50%, $turquoise 50%);
+  background-size: 200%;
+  transition: background-position 0.2s;
+  background-position: -100%;
+  color: black;
+}

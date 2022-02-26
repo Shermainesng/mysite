@@ -6,6 +6,13 @@
 // External libraries
 @import "bootstrap";
 @import "font-awesome";
+@import "font-awesome-sprockets";
+$fa-font-path: "@fortawesome/fontawesome-free/webfonts";
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/solid";
+@import "@fortawesome/fontawesome-free/scss/regular";
+@import "@fortawesome/fontawesome-free/scss/brands";
+@import "@fortawesome/fontawesome-free/scss/v4-shims";
 
 // Your CSS partials
 @import "components/index";
@@ -13,16 +20,18 @@
 
 h1 {
   font-family: $headers-font;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: bolder;
 }
 h2 {
   font-family: $headers-font;
   font-size: 25px;
-  font-weight: lighter;
+  font-weight: bolder;
 }
 h3 {
-  font-family: "pp_agrandirgrand_heavy";
+  font-family: $headers-font;
   font-size: 20px;
+  font-weight: bolder;
 }
 p {
   font-family: $body-font;

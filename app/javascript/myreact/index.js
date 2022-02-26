@@ -12,7 +12,6 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div>
-      <Navbar />
       <Home />
       <Resume />
       <MyWorks />
@@ -20,16 +19,18 @@ function App() {
     </div>
   );
 }
-// function Main() {
-//   return (
-//     <BrowserRouter>
-//       <Navbar />
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/my-works" element={<MyWorks />} />
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
+function Main() {
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="#home" element={<App />} />
+        <Route path="#myworks" element={<App />} />
+        <Route path="#contact" element={<App />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
-ReactDOM.render(<App />, document.querySelector("#app"));
+ReactDOM.render(<Main />, document.querySelector("#app"));
