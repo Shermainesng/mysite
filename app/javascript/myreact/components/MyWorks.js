@@ -14,7 +14,7 @@ function MyWorks() {
         <div className="row text-center justify-content-center pb-4">
           <ProjectCard image="synclogo.png" name="sync" tech="ruby on rails, stimulus" desc="an app that streamlines the collaboration processes between creators and brands" />
           <ProjectCard image="bestgamerlogo.png" name="best gamer" tech="ruby on rails" desc="a marketplace for gamers to search for coaches and book 1-on-1 slots with em" />
-          <ProjectCard image="helalogo.png" name="hela talk" desc="my sexual wellness brand that serves as a safe space for all" tech="ruby on rails, reactJS" />
+          <ProjectCard image="helalogo.png" name="hela talk" desc="my sexual wellness brand that serves as an aggregator & a safe space for all" tech="ruby on rails, reactJS" />
         </div>
       </div>
     </div>
