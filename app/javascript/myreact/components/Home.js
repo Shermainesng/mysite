@@ -4,7 +4,7 @@ function Home() {
   return (
     <div id="home">
       <div className="container-fluid container-home">
-        <div className="row justify-content-center row-custom">
+        <div className="row justify-content-center align-items-center">
           <div className="col-md-6 col-lg-5 ps-4 pt-3">
             <div className="d-flex text-pink">
               <div className="text">
@@ -17,7 +17,7 @@ function Home() {
           </div>
 
           <div className="col-md-6 col-lg-4 text-center">
-            <img className="mypic mb-4" src="mypic.jpg" alt="..." />
+            <img className="mypic" src="mypic.jpg" alt="..." />
           </div>
         </div>
       </div>
