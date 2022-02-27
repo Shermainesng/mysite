@@ -21,10 +21,10 @@ function Resume() {
                   <h2 className="m-0">Technical Skills</h2>
                 </div>
                 <div className="card-body">
-                  <h5 className="card-title">
+                  <p className="card-title">
                     <u>one-liner summary of my resume:</u>
                     <br /> I am a <strong>Communications major</strong> with a specialization in research and have published two papers, interned at a start up in NYC as a <strong>data analyst</strong> for a year, and then jumped wholeheartedly into the exciting world of <strong>web development</strong>
-                  </h5>
+                  </p>
                   <a href="shermaine.pdf" target="_blank" class="btn btn-dark btn-custom">
                     <h3 className="m-0">my resume</h3>
                   </a>
